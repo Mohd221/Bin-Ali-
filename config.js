@@ -16,15 +16,15 @@ global.DATABASE_URI=process.env.DATABASE_URL || "mongodb://uwrr2obvrb4kbwnrvimy:
 global.scan = "https://suhail-md-vtsf.onrender.com/";
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "AFRICA/LAGOS";
 global.github=process.env.GITHUB|| "https://github.com/M-cross1/Suhail-Md/tree/main";
-global.gurl  =process.env.GURL  || "https://wa.me/2349042566473";
-global.website=process.env.GURL || "https://wa.me/2349042566473" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/52d259354a5da6b250132.jpg,https://telegra.ph/file/859e6c982e5ad10193cf3.jpg,https://telegra.ph/file/fb8689906492c50d8a908.jpg" ; // SET LOGO FOR IMAGE 
+global.gurl  =process.env.GURL  || "https://wa.me/2348163717090";
+global.website=process.env.GURL || "https://wa.me/2348163717090" ; 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/d44150b5c7605e510431d.mp4" ; // SET LOGO FOR IMAGE 
 
 
 
-global.devs = "2349042566473" // Developer Contact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "2349042566473";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2349042566473";
+global.devs = "2348163717090" // Developer Contact
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "2348163717090";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2348163717090";
 
 
 
@@ -38,7 +38,7 @@ global.wlcm  = process.env.WELCOME || "false";  // Make it "false" for disable W
 global.warncount = process.env.WARN_COUNT || 5,
 global.disablepm = process.env.DISABLE_PM || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES|| "https://telegra.ph/file/d44150b5c7605e510431d.mp48689906492c50d8a908.jpg",
+global.userImages= process.env.USER_IMAGES|| "https://telegra.ph/file/d44150b5c7605e510431d.mp4",
 global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
@@ -84,7 +84,7 @@ module.exports = {
   aitts_Voice_Id : process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "https://api.elevenlabs.io/v1/text-to-speech/<voice-id>",
   WORKTYPE: process.env.WORKTYPE||process.env.MODE || "private",
-  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "🄼🄲🅁🄾🅂🅂",
+  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "𝐁𝐈𝐍𝐀𝐋𝐈 𝐌𝐃-𝐁𝐎𝐓 𝐯𝟑",
 
 
 
