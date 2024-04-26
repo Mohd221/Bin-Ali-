@@ -6,7 +6,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 global.audio= "" ;  
 global.video= "" ;
 global.port =process.env.PORT
-global.appUrl=process.env.APP_URL || "https://telegra.ph/file/74fe969b16562689a33b1.jpg"                       // put your app url here,
+global.appUrl=process.env.APP_URL || "https://telegra.ph/file/d44150b5c7605e510431d.mp4"                       // put your app url here,
 global.email ="kingmcross090@gmail.com"
 global.location="Nigeria,Ogunstate."
 global.mongodb= process.env.MONGODB_URI || "mongodb+srv://steezy_maxwell:Steezy._.and._.Maxwell@maxwellandsteezy.wbmgyr4.mongodb.net/?retryWrites=true&w=majority"
@@ -38,7 +38,7 @@ global.wlcm  = process.env.WELCOME || "false";  // Make it "false" for disable W
 global.warncount = process.env.WARN_COUNT || 5,
 global.disablepm = process.env.DISABLE_PM || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES|| "https://telegra.ph/file/52d259354a5da6b250132.jpg,https://telegra.ph/file/859e6c982e5ad10193cf3.jpg,https://telegra.ph/file/fb8689906492c50d8a908.jpg",
+global.userImages= process.env.USER_IMAGES|| "https://telegra.ph/file/d44150b5c7605e510431d.mp48689906492c50d8a908.jpg",
 global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
@@ -52,7 +52,7 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,923xxxxxxxx";
 global.read_status = process.env.AUTO_READ_STATUS || "false"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "2349042566473";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "2348163717090";
 
 
 
@@ -60,15 +60,15 @@ module.exports = {
 
   menu: process.env.MENU || "1", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
-  HANDLERS : process.env.PREFIX || "⚡",
+  HANDLERS : process.env.PREFIX || ".",
   BRANCH : process.env.BRANCH   || "main",
   VERSION : process.env.VERSION || "V.1.2.8",
-  caption : process.env.CAPTION || "ＫＩＮＧ ＭＣＲＯＳＳ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : process.env.CAPTION || "×͜× Aʟᴀᴍɪɴ Bɪɴ Aʟɪ ×͜×" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author: process.env.PACK_AUTHER || "𝐌𝐂𝐑𝐎𝐒𝐒-𝐌𝐃",
-  packname: process.env.PACK_NAME || "₭ł₦₲ ₥₵ⱤØ₴₴",
-  botname : process.env.BOT_NAME  || "⫷𝗠𝗖𝗥𝗢𝗦𝗦-𝗠𝗗⫸",
-  ownername:process.env.OWNER_NAME|| "🄺🄸🄽🄶 🄼-🄲🅁🄾🅂🅂",
+  author: process.env.PACK_AUTHER || "┈━═☆ 𝕭𝖎𝖓𝖆𝖑𝖎 𝖙𝖊𝖈𝖍 𝖎𝖓𝖋𝖔 ☆═━┈",
+  packname: process.env.PACK_NAME || "𝄌𝗔𝗟𝗔𝗠𝗜𝗡 𝗕𝗜𝗡 𝗔𝗟𝗜𝄌",
+  botname : process.env.BOT_NAME  || "𝐁𝐈𝐍𝐀𝐋𝐈 𝐌𝐃-𝐁𝐎𝐓 𝐯𝟑",
+  ownername:process.env.OWNER_NAME|| "𝄌𝗔𝗟𝗔𝗠𝗜𝗡 𝗕𝗜𝗡 𝗔𝗟𝗜𝄌",
 
   sessionName:process.env.SESSION_ID|| "",  // PUT SESSION ID HERE 
   errorChat: process.env.ERROR_CHAT || "",
